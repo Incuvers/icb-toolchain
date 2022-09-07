@@ -45,6 +45,9 @@ Flash the `.hex` binary to the control board:
 make flash
 ```
 
+The SCK should blink at 2Hz:
+[!img](docs/icb.png)
+
 ## Fuse Configuration
 I've added a fuse directive to setup the chips fuses according to the ATMEL2560:
 ```bash
